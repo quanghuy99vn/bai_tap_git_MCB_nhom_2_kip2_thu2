@@ -1,0 +1,587 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="theme-color" content="#33b5e5">
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			var $filter = $('.nav_menu');
+			var $filterSpacer = $('<div />', {
+				"class": "vnkings-spacer",
+				"height": $filter.outerHeight()
+			});
+			if ($filter.size())
+			{
+				$(window).scroll(function ()
+				{
+					if (!$filter.hasClass('fix') && $(window).scrollTop() > $filter.offset().top)
+					{
+						$filter.before($filterSpacer);
+						$filter.addClass("fix");
+					}
+					else if ($filter.hasClass('fix')  && $(window).scrollTop() < $filterSpacer.offset().top)
+					{
+						$filter.removeClass("fix");
+						$filterSpacer.remove();
+					}
+				});
+			}
+
+		});
+		</script>
+  <link rel="manifest" href="/manifest.json">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.0/css/perfect-scrollbar.css">
+
+          <!-- COMMON TAGS -->
+        <meta charset="utf-8">
+        <title>Thong tin ca nhan</title>
+        <!-- Search Engine -->
+        <meta name="description" content="Thông tin về mã sinh viên và hình ảnh về quê hương sở thích....">
+        <meta name="image" content="https://4.bp.blogspot.com/-YIE_NBiM7mo/WffkpP1sXCI/AAAAAAAAAcI/hsYgjXG5ljEonOsBJZncoIY7fHVcOc2tQCLcBGAs/s1600/hoc%2Bvien%2Bcong%2Bnghe%2Bbuu%2Bchinh%2Bvien%2Bthong.jpg">
+    
+  <link rel="shortcut icon" href="" />
+
+  <link rel='dns-prefetch' href='//mdbcdn.b-cdn.net' /><script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<script type="text/javascript">var ajax_url = 'https://mdbootstrap.com/wp-load.php';</script><script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<script type="text/javascript">var ajax_url = 'https://mdbootstrap.com/wp-load.php';</script><script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<script type="text/javascript">var ajax_url = 'https://mdbootstrap.com/wp-load.php';</script><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+	var gtm4wp_use_sku_instead        = 0;
+	var gtm4wp_id_prefix              = '';
+	var gtm4wp_remarketing            = false;
+	var gtm4wp_eec                    = 1;
+	var gtm4wp_classicec              = 1;
+	var gtm4wp_currency               = 'EUR';
+	var gtm4wp_product_per_impression = 0;
+	var gtm4wp_needs_shipping_address = false;
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mdbootstrap.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='dashicons-css'  href='https://mdbcdn.b-cdn.net/wp-includes/css/dashicons.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='https://mdbcdn.b-cdn.net/wp-includes/css/admin-bar.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://mdbcdn.b-cdn.net/wp-includes/css/dist/block-library/style.min.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-vendors-style-css'  href='https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=4.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-css'  href='https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=4.9.1' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wsl-widget-css'  href='https://mdbcdn.b-cdn.net/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=5.7.2' type='text/css' media='all' />
+<link rel='stylesheet' id='admin.css-css'  href='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/css/mdb5/3.6.0/compiled.min.css?ver=3.6.0-update.4' type='text/css' media='all' />
+<script type='text/javascript' id='mdb-search.js-js-extra'>
+
+</script>
+<script type='text/javascript' id='tutorial-share-counts-js-extra'>
+/* <![CDATA[ */
+var shareCountsData = {"oldShareCounts":""};
+/* ]]> */
+</script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var xlwcty = {"ajax_url":"https:\/\/mdbootstrap.com\/wp-admin\/admin-ajax.php","version":"2.14.1","wc_version":"5.3.0"};/* ]]> */
+</script>
+<script type='text/javascript' src='https://mdbootstrap.com/wp-admin/load-scripts.php?c=gzip&amp;load%5Bchunk_0%5D=jquery-core,jquery-migrate&amp;ver=5.7.2'></script>
+<script type='text/javascript' src='https://mdbcdn.b-cdn.net/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-woocommerce-classic.js?ver=1.12.3' id='gtm4wp-woocommerce-classic-js'></script>
+<script type='text/javascript' src='https://mdbcdn.b-cdn.net/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-woocommerce-enhanced.js?ver=1.12.3' id='gtm4wp-woocommerce-enhanced-js'></script>
+<script type='text/javascript' src='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/js/mdb-search.js?ver=4.19.2-update.1' id='mdb-search.js-js'></script>
+<script type='text/javascript' src='https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/js/tutorial-share-counts.js?ver=4.19.2-update.4' id='tutorial-share-counts-js'></script>
+<link rel="https://api.w.org/" href="https://mdbootstrap.com/wp-json/" /><link rel="alternate" type="application/json" href="https://mdbootstrap.com/wp-json/wp/v2/pages/127729" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mdbootstrap.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://mdbcdn.b-cdn.net/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.2" />
+<meta name="generator" content="WooCommerce 5.3.0" />
+<link rel='shortlink' href='https://mdbootstrap.com/?p=127729' />
+<link rel="alternate" type="application/json+oembed" href="https://mdbootstrap.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmdbootstrap.com%2Fdocs%2Fstandard%2Fextended%2Fgallery%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://mdbootstrap.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmdbootstrap.com%2Fdocs%2Fstandard%2Fextended%2Fgallery%2F&#038;format=xml" />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer>//<![CDATA[
+	var dataLayer_content = {"customerTotalOrders":0,"customerTotalOrderValue":"0.00","customerFirstName":"","customerLastName":"","customerBillingFirstName":"","customerBillingLastName":"","customerBillingCompany":"","customerBillingAddress1":"","customerBillingAddress2":"","customerBillingCity":"","customerBillingPostcode":"","customerBillingCountry":"","customerBillingEmail":"","customerBillingPhone":"","customerShippingFirstName":"","customerShippingLastName":"","customerShippingCompany":"","customerShippingAddress1":"","customerShippingAddress2":"","customerShippingCity":"","customerShippingPostcode":"","customerShippingCountry":""};
+	dataLayer.push( dataLayer_content );//]]>
+</script>
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W7MBMN');//]]>
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://mdbcdn.b-cdn.net/wp-content/uploads/2016/11/cropped-ms-icon-310x310-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://mdbcdn.b-cdn.net/wp-content/uploads/2016/11/cropped-ms-icon-310x310-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://mdbcdn.b-cdn.net/wp-content/uploads/2016/11/cropped-ms-icon-310x310-180x180.png" />
+<meta name="msapplication-TileImage" content="https://mdbcdn.b-cdn.net/wp-content/uploads/2016/11/cropped-ms-icon-310x310-270x270.png" />
+
+  
+  <script>
+    var currency = '€';
+  </script>
+
+  <meta name="p:domain_verify" content="ba4bb1f26dcf05eadc4ea92722eca381" />
+
+  
+    <!-- Structured data: Breadcrumbs -->
+    <script type="application/ld+json">
+    </script>
+
+  </head>
+
+<body class="mdb-skin-custom " data-mdb-spy="scroll" data-mdb-target="#scrollspy" data-mdb-offset="250">
+
+<header>
+  <style>
+  /* Sidenav (global) */
+  #mdb-sidenav .fas {
+    color: #9FA6B2;
+  }
+  #mdb-sidenav a {
+    color: #4B5563;
+  }
+  #mdb-sidenav a.active {
+    background-color: rgba(18,102,241,.05);
+  }
+  #mdb-sidenav .sidenav-item {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #mdb-sidenav .sidenav-item:first-child {
+    margin-top: 4px;
+  }
+  #mdb-sidenav .sidenav-item:last-child {
+    margin-bottom: 4px;
+  }
+</style>
+<!-- Sidenav -->
+
+
+<!-- Sidenav -->
+
+
+<div id="dpl-auth-modal"></div>
+
+<style>
+  
+  #mdb-navbar {
+    padding-left: 240px;
+    height: 58px;
+  }
+
+  #mdb-5-search-container {
+    position: relative;
+    font-size: .8rem;
+  }
+
+  #mdb-5-search-dropdown {
+    display: none;
+    position: absolute;
+    top: 36px;
+    overflow-y: hidden;
+    width: 100%;
+    z-index: 999999;
+    background-color: white;
+  }
+
+  .mdb-5-search-keywords {
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  #mdb-5-search-list {
+    overflow-y: scroll;
+    max-height: 265px;
+    position: relative;
+  }
+
+  #mdb-5-search-list li a {
+    transition: background-color .3s ease-in;
+  }
+
+  #mdb-5-search-list li a:hover, #mdb-5-search-list li a:active, #mdb-5-search-list li a:focus {
+    background-color: rgba(0, 0, 0, 0.05);
+    outline: none;
+  }
+
+  #mdb-5-search-input {
+    min-width: 230px;
+  }
+
+  #mdb-5-search-icon {
+    transition: color .3s ease-out;
+  }
+
+  @media (max-width: 1440px) {
+    #sidenav-toggler {
+      display: inline-block;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    #mdb-navbar {
+      padding-left: 0;
+    }
+  }
+</style>
+
+<div class="nav_menu"> 
+  <ul class="menu_head">
+    <li><h2><a href="index.html">Trang chủ</a></h2></li>
+    <li><h2><a href="Lich.html">Lịch</a></h2></li>
+    <li><h2><a href="hoang.html">Hoàng</a></h2></li>
+    <li><h2><a href="huy.html">Huy</a></h2></li>
+    <li><h2><a href="Hieu.html">Hiếu</a></h2></li>
+  </ul>
+</div>
+</header>
+
+  <!-- Main layout-->
+  <main class="pt-5 mdb-docs-layout">
+    <div class="container mt-5 px-lg-5">
+      <!-- Nav tabs -->
+      <div class="tab-content">
+                  <div class="tab-pane fade in show active" id="docsTabsOverview" role="tabpanel">
+            <div class="row">
+              <!--Main column-->
+              <div class="col-lg-10 col-md-12">
+                <link
+  rel="stylesheet"
+  href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/css/mdb5/plugins/all.min.css?v=3.6.0"
+/>
+<!--Section: Docs content-->
+<section>
+  <!--Section: Introduction-->
+  <section id="section-introduction">
+    <!-- Main title -->
+    <h2 class="h1 fw-bold">Hồ Sỹ Quang Huy</h2>
+
+    <!-- Seo title -->
+    <h1 class="h6">Mã sinh viên: B17DCDT094 Trường Học viện Công nghệ Bưu chính Viễn thông </h1>
+
+    <!-- Description -->
+    <p>
+      Sinh ra và lớn lên tại Hương Khê Hà Tĩnh
+    </p>
+  </section>
+  <!--Section: Introduction-->
+
+  <hr class="my-5" />
+
+  <!--Section: Static images-->
+  <section id="section-static-images">
+    <!-- Section title -->
+    <h2 class="mb-4">Một số hình ảnh cá nhân</h2>
+    <!--Section: Demo-->
+    <section class="border p-4 text-center mb-4">
+      <!-- Gallery -->
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img
+          src="https://lh3.googleusercontent.com/PwLA1wnTb3HdpphRrokvVJL4iaGnYyx08JfeySgXjue1px1OG6P2y-z2VM6oFKKqpDffXBi5A80G_22swilw7lwmtyndtkQthjxlwG7W-d31xP-u38hN7OIkg4RcjdxVAH85Mh6o92BGiE4BnOrTxf3VroIfQY8jMVuBUnzymlABz-LShLB4QvXEJpTQJZVdDoQvhOUCMwjTS4MPBQo_1yj-mN2UMyF_z6CXE1xBhJkxGKSlbNxWHq4KCuyCCcl-dqBsrNDe5w0uGtwi_f8DXJhdHyAE9lAIz2VtZvy2BGQ1id_JNiphzLZmSgVL9tDy70q5BRXXbBy3tEmmpQRpTCNi9t0D1ottJqvRXPMVxmUloPNy18GVqND9Z65_wCMIZVCK0oSoZ5quFOPX3RQ1fvT29kP03rmuosrPEKBEvKjyqZAPJ4k8Hnkoyy767iAMpLAxvQiXBrq2440ZSBUG2SuNXlnt7OOfHq-7Nbpfk0cS9YLno7axgffF_3Rpt56KRNFpaI6Rk_v3JaWVOzLEEENqNSc9bVSoSJFJko_nybhcKBr8u1bOwc4wRxxQTRJisYGznqSPIOqvYvqXvv1c5TziwAWSL2-eRg3z-VoBzblcsVLg99vQatkjWUVV6VuphguyhMCp2cA68vQz8ZC6lkbJCr5NfMrDDgwlVzJPE0hoNdII0uuB_iDOirYmMWRrTycl7gDj22mnSytaED-NzQEF=w1264-h948-no?authuser=1"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+
+          <img
+            src="https://lh3.googleusercontent.com/mjmQ9BP8ixE6Ebq6m-8gwweEAacgIvqRP3HWL7rQjdxg1psbAriLh2PUVQWuQUrQGd77HhxaXyZb-4FzrY6TONCIl8Dv9jki3D9pAhmqFj3akCG3aSP0Eq8drBb4sMPqIjLXMktB5uvmqtVxI40m8UclQDgK_JmEVfnmm5NI-Hic43XM0a9pfCKAcmF2jDneEVtLcJaLyd5whs_6bIZjyFYWmplF5V8pKrlXJMHDSv4OaZM1n16mlSbu_r15KDD9W8wDDYa3f0WlRttUmKR1vYixRHvFByX1sLTFIDtEr6EnRoIn18S_XjdvBMi6VZlOqgv2DvESC3e2UBOox1XyLMqXUzQ_RKhcM09s23jCIyMkbhPt1dhaH1MoWkTl0tggCOKWGZuZOn9NHJyqcsVz_xqk6IefAsmloV2aoFt5O_Y4Z6pu1sK3-Z2EGkp2lFOs7VNeXDb2x1tQhRkns2N80hA8j0jxMUjc7DW6wBHqCx0U9A_1Gkx5IVBlkJCq6RrO34Gq3KtBm3N6AjXgQKuhoIeGMPoXBRmxsZGoPiaCy6JznkH5WIFtLNNTHHnVLb5yr4RzNrhKKZON9RA_eSpyPPOczauxc0qyyB3is9SSj89W5oOMzOtG0tL_2CtTYZk_pAO02OAjgZsUlKlTIM4-_qDQfV8B1-BFAC4HtIKzi2QYWQRvSbuhJBjOFtMhbL6jujkjS61Q-SDnt-q96zuKHRhe=w711-h948-no?authuser=1"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="https://lh3.googleusercontent.com/wU_WLwr7NaL6vXrPG7GHXC3VW7ZLEIf9OUR-HxBQHJP11buB4mnBmYnZTL5gtAL4DcGaxKnzaKEyE_H5GEmoInPWdHWt0qNVAP14SsVPH1qv5KEBTvP-w3MZzeSRkoIeoJ2Ss2La8UqrAkyfB0kJQWuvqMyImjw_B21fYXIpvJKMD0_E0IWB6a2c3HatqOK7lKD8QGkQhMQzECQ14glTqmnIUsdbdY1m37dPNRTRTa6eV6mJt5kRMKwAWK5kwOr2fGIEfFV0Bhvx5Gl1qNwxw2wm9BZUQrLcEZjoiUjhFPlYxQ04IwkE7VzaoaHSm-sI4Uo-9jgadG_qxobGxIDZ8SHa6IgbbyNCUhOhRbLS9qOFr3yf86NSm4Y1GY15ik2akvtcrQuC-KtP9x_p3IOwI86renCwFwfKqQnky2MGZZr9vq4QgTDp98948EZTVdbTo9HImSkpqtGk_0x9nj47U-Xk6XJ_CKSZzNg63PqomSAR_ncsdtdheT_vFiW9aY9bAuco_JU5EfdWmzsXpjhdshtPw8iWzF_hCZjNaDUYpTRgyHcX8Z5RQohbrUsIBhqQ2Kczb3l82D7YQMztuDvPEtZDgXOrCkBJBwzKjzNAVgAKUQSfKeMnoU5jkEkNO9fzR_Un0rrzIzyFZDqv6akAOU5F4Rbht76uqtucxXC9KuaxD648fTM22RRoCuUQ039RMtU2iGNd8Bdn9-CE2y4ZoK0r=w711-h948-no?authuser=1"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+
+          <img
+            src="https://lh3.googleusercontent.com/8Mkm88W-Rse63Ho-8MSgJV6Gt6R7u3Z-olf4Ep3fQGreTNVfUcQOw9LHSH59J7tRcdPTjYN53ADRe5MN2pZI-OHIJ7enFjtV9tWgDyI8c63HYfnUfgrEMLWO_zdCYXHdOqRbEDH2vnTSYcfDBFTQHbOBRacyzOhqW6icJWCdXtsrEaDV9FP0HPN6HMB-xXTDjTRe-3DJStiM7chLjdSoyCp-53FcYTy4L51Cxxw6YPvyDmVp-wuRvu0aFQ90SWvxYO_jNaBf4pKB_RwuYESqEivz6TQz-fsA3DtU09WUQStgrU2rEWQfAf1GcdGtQQD1a69qorgz3xna535_oX2Yg_AAOnc_um5Z1X9xURzLf41RYb6GRCc6rhvl9xGDmRfr_MmeEMlkE7SLbUwnc8jCzsUABQQ8XawPDqwh3Kfulaj0DNyEmyHhdUARQocIHri1qQASPzRy0czUZEse8jz-q3x0qoPhrLbc-IVOIuZOiX9mCZQ9_laNbwAuKOTV0R_JWCDjM6_klfEaB-tNfXPGhgh0sA2f3_RVVMXGlz8jTS7F4ldeSoipKq0d0tsiXWAXwPDULvKxxnwVm13IvWD2RvoYPlN41S4-fy-wT3rn1wC5cKHWtE24UKE4l4pomfDvjgcA8DN_xl5YhxNbP7ztrSJcBrX5LkNoFyDJfWUlzgtjfPhdCt0O0T3jx-1nnbzYnSiCqv6tk1fKGstLcabhsH18=w1264-h948-no?authuser=1"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="https://lh3.googleusercontent.com/FCN8lBr_8GcZwRo6b4EoOdNBG_Ao6t8wDKd50ocxjG3bpkUkG4hmJjrsK_lwjoA8Ttl5IklyNpNbHwjwvqugbMqeA5hB4GGZIlxqszlzVM4axA1zM951QQvFJEM7gQd8Z3iTzcJ_Pqz_IyqZLlgPwJ8F6H2thOqsODFEkcIi7u9Ma28sehuc4D8ubuRSBJrgn-Bz1f8vv_ad8wjbBTaSqy3r3sM3TnB5RKESjarrFUZMsK1bQ33XLzgx6twrDtwUpHASFqrtrozen2V63mKGqss2mJNgPJMIPK0vbC9WqE42duE8wytRaTExxC-Z8W0_ZCOmQn8TXfRosMLgXTEDOqQohGvqMCcyzRdH3Tn9GQZ-adaieWtLkis9_1u_88o_L-eDXWdJcmZLZrTNBPUeqHVu04OU1UsZ9yGGEHV4PgGIwC5kCMLo3TWIfym6BLD4bhx08GqWAjAhxsTk2rOBaJnD70XBILAsjjbVEG-ZLb_vaO-sxlUZzGYBmy9UdE7OREPWZ1FHnrV1IGjLR4W0Iwhbwx9XCpm3OyqY5XbcMOevS1Egv7ZytnkU4SGGmli9txPZ3Kr3sSeW8hqW1MD82_6AtsBZzZ-rX3iM-EQEMej0jIsGzqaPhXEGSMZCiMSoxlzeszmJXmDy0mYeVNe3f_Mb_mQQ5Y3MONIzGUbcLmfijoqUhHvcIkUpsV5Zs89ljokK8ocz4NvncLaCPQiAAfTc=w1264-h948-no?authuser=1"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+
+          <img
+            src="https://lh3.googleusercontent.com/ng-vGNGey1B1J0SHoqx-Zb5Qd5W90dRtC-w9R1HTS1CafSa46QSujB18s0_RJNmbxtnfDY4GfU-FrVvdQlr1adXhqF9Bt7_ehxnzeYbSh3zq1djRIW6SL2RwGovbx5xhTY3jTwyuSvQYjPQ7_4FxEVdnoRVhSSILcqwnuLE7gnBf1ox3EaY18ymFjTMiXP6ppHjgZdoHuzzrI9E9LBr6Y8k4TBQUyRYZ6X0voKfRtojtuS3VIFwNPmOoFswQpLWwsm3-w1bKtHj4t8cNijT2Nvw89XG2DvBERdwV-c5-oP9AY6J0047PtCD8WO-qoq6fwibs_rVNMYQ8jXD4yHm_HeyLW8wkcgLMW7O98CkNolJMKr-mNitS7CBoS77Ab1pORxAcJVewxPFMMp0zHc1RtjBAzNgsDDs8FOXvEpAtFQ8yUNohVOJsKwUIYfMAQMD-AT4vbRWDhRHwKJeafnCinTcsnkCQ-1JMBtMF1vZSzrVZ3R7rToMk92oS29godtjKwOwQf-j8aIbSm6AOelo87vWp5Mn9c1JSg4XaanLl91anii_Z73ApGePzd4qAagrQHI3sKRKzWE9Qzk0YEpfnfdH6Ee7-mwgj7CBLFdvZ5Hg8EAtsU8wGM9ZdfDBwJAULWUwHCc0NkdU9btdPa7hKNrzZndW8e8XmtXOAVVzHnwdCu54Y4R6I96bdLNMySJsW0inVzMWJsHnVrcajvvwLlMg7=w711-h948-no?authuser=1"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt=""
+          />
+        </div>
+      </div>
+      <!-- Gallery -->
+    </section>
+    <!--Section: Demo-->
+  </section>
+  <!--Section: Static images-->
+  <hr class="my-5" />
+
+  <!--Section: Multi-item carousel-->
+  <section id="section-multi-item-carousel">
+    <!-- Section title -->
+    <h2 class="mb-4">Hình ảnh quê hương Hà Tĩnh</h2>
+    <!--Section: Demo-->
+    <section class="border p-4 text-center mb-4">
+      <!-- Carousel wrapper -->
+      <div
+        id="carouselMultiItemExample"
+        class="carousel slide carousel-dark text-center"
+        data-mdb-ride="carousel"
+      >
+        <!-- Controls -->
+        <div class="d-flex justify-content-center mb-4">
+        </div>
+        <!-- Inner -->
+        <div class="carousel-inner py-4">
+          <!-- Single item -->
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card">
+                    <img
+                      src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/Bien-Thien-Cam-768x513.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Biển Thiên Cầm</h5>
+                      <p class="card-text">
+                        Biển Thiên Cầm với vẻ đẹp trong lành, tĩnh lặng, tinh khiết được ví như “khúc nhạc trời” của Hà Tĩnh.Hãy đến với biển Thiên Cầm để hoà mình vào không gian thanh bình, hoang sơ và thưởng thức những món hải sản thơm ngon ở đây, quên đi bao muộn phiền của cuộc sống hàng ngày.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 d-none d-lg-block">
+                  <div class="card">
+                    <img
+                      src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/Chua-Huong-Tich-e1501868906626.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Chùa Hương Tích</h5>
+                      <p class="card-text">
+                        Toạ lạc trên núi Hồng Lĩnh, chùa Hương Tích là một địa điểm du lịch tâm linh nổi tiếng được xây dựng từ thời nhà Trần. Nằm trên độ cao gần 700m so với mặt nước biển, chùa Hương Tích ẩn sau những làn sương khói huyền ảo, quanh năm mây che khói phủ.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 d-none d-lg-block">
+                  <div class="card">
+                    <img
+                      src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/08/Nga-ba-Dong-Loc-e1501869021289.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Ngã ba Đồng Lộc </h5>
+                      <p class="card-text">
+                        Ngã ba Đồng Lộc là một di tích lịch sử ghi dấu tuổi xuân vĩnh cửu của 10 cô gái thanh niên xung phong Đồng Lộc dũng cảm và đã trở thành huyền thoại trong lòng người dân đất Việt.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Inner -->
+      </div>
+      <!-- Carousel wrapper -->
+    </section>
+    <!--Section: Demo-->
+  </section>
+  <!--Section: Multi-item carousel-->
+
+  <hr class="my-5" />
+
+  <!--Section: Lightbox-->
+  <section id="section-lightbox">
+    <!-- Section title -->
+    <h2 class="mb-4">Đồ uống yêu thích</h2>
+    <!--Section: Demo-->
+    <section class="border p-4 text-center mb-4">
+      <div class="lightbox">
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              src="https://th.bing.com/th/id/OIP.AXkYQUTzVYkUDVauErmLMQHaE8?pid=ImgDet&rs=1"
+              data-mdb-img="https://th.bing.com/th/id/OIP.AXkYQUTzVYkUDVauErmLMQHaE8?pid=ImgDet&rs=1"
+              alt="Lightbox image 1"
+              class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+            />
+            <img
+              src="https://lh3.googleusercontent.com/mM2m0wctmtyQRuZdnpv-GrtOZtfjptubfQJgdY4KZiXYkwBw56EHsX8BaTFPPsvJ8K5ecHcsLkDUTy369EPTJRHuoKrHQeuc1Jq-7mhhQnV9SIpGHsxMLCDnCof_iuf7sL_l01H0Gz08eXNrhn5r_RLEoxmhT8j8cLLpx1ls2obuhlHovgarPkAzr_nAXpg6ZHUAOjS8Idb1QFyYERMXTaT-Lns018F97OhyyMlGBxA6j8F_ROy5UEBf9AA4SfcYvAqYOmxfAirBpPZ_KUR2eXP4bXI1Ya3Y-QVcYCCAJ8zYVi_Y9lN0bxkEnN6k9IJtxVtoteQv-mRI7JzptAEjvitovf2rPZ9lGmRclznBLWgRwqqqvMAExT15vK7u0sq2fH9olC_8Jf8xovkeeqQHCUGduco27yq2bzw674fRv6_GEqk_zXbO3cqJequX6HneTfKio7FK8OcYrzko9lwPyRji0GXXXY00AvCU-SMpnmqwZV-eje_TCuMBgIJEyY7PHH_t42QlyZFHxe5lbJ4ARw3gqQinseofHs6aWpeM72MYCrSZVC5R6ZQRMLlkU9d8UKRTfP4QeoZmS7eVTToXZ9MXr-4Jcp9Ca2GzU6qE03UQHBckJqTrHaVGlzrG7nRB0RM-pc_n0zHHCbIRvvt3vUpNgjZQJxvdgsMuyl6hPrLs2VyCOu9tLOZvMLF4TeexmwVg5KGTDmaqxNKl21Ljo_9Q=w711-h948-no?authuser=1"
+              data-mdb-img="https://lh3.googleusercontent.com/mM2m0wctmtyQRuZdnpv-GrtOZtfjptubfQJgdY4KZiXYkwBw56EHsX8BaTFPPsvJ8K5ecHcsLkDUTy369EPTJRHuoKrHQeuc1Jq-7mhhQnV9SIpGHsxMLCDnCof_iuf7sL_l01H0Gz08eXNrhn5r_RLEoxmhT8j8cLLpx1ls2obuhlHovgarPkAzr_nAXpg6ZHUAOjS8Idb1QFyYERMXTaT-Lns018F97OhyyMlGBxA6j8F_ROy5UEBf9AA4SfcYvAqYOmxfAirBpPZ_KUR2eXP4bXI1Ya3Y-QVcYCCAJ8zYVi_Y9lN0bxkEnN6k9IJtxVtoteQv-mRI7JzptAEjvitovf2rPZ9lGmRclznBLWgRwqqqvMAExT15vK7u0sq2fH9olC_8Jf8xovkeeqQHCUGduco27yq2bzw674fRv6_GEqk_zXbO3cqJequX6HneTfKio7FK8OcYrzko9lwPyRji0GXXXY00AvCU-SMpnmqwZV-eje_TCuMBgIJEyY7PHH_t42QlyZFHxe5lbJ4ARw3gqQinseofHs6aWpeM72MYCrSZVC5R6ZQRMLlkU9d8UKRTfP4QeoZmS7eVTToXZ9MXr-4Jcp9Ca2GzU6qE03UQHBckJqTrHaVGlzrG7nRB0RM-pc_n0zHHCbIRvvt3vUpNgjZQJxvdgsMuyl6hPrLs2VyCOu9tLOZvMLF4TeexmwVg5KGTDmaqxNKl21Ljo_9Q=w711-h948-no?authuser=1"
+              alt="Lightbox image 2"
+              class="w-100 shadow-1-strong rounded"
+            />
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="https://lh3.googleusercontent.com/T6YRE7z0T9BcypE6xhmLyqlFLqDNJ-NWAzqi4qafxW6iD1DMLrMgvgprL-H8ELzGnnFehM7EAV9LuupIkBiFd7Mitve5dfY8rAKPTAdU6w7d8dKvKP6__VwZ9PkDiaKoHLqLBR1Roe6fAqxemBze-7IJm3mmr85e8L66cHq0R8Yt6edZM8_vjxtTzQrfSSUdq_bea6mZX2KHaSuk8iQ-eq52J8Bx4P5HPgnvk63eR34phpXEYnUgL_c82nLeMupMBs9zNy9kOjYnK5VyH3CDgzdbdm4kQvkmYj05Oas1cx_ZZVm8wCIyrLEs5s9cipgcESuVy9QoFsnsqTPjxeqcIf2bm75PvSiUVKS3zv81jUSIc8gAvW1UoC1iNIFlUG9-15lo6PwpV7DDQua2zfY3gDOMGqtVdSK7foneDeDhn7N9F0PoNeHyLan1hAUad1hmU-2JcZEu76FCzD8JyMeDZ9b6kEeJL_e8Rtikze7mHPJNYpS-mNaTE500ZjmzmjgvGAHrOhiPf-LhST5Wjaobvfdj1Wxg8tRr0vQ2fXc6_mzxA-sONo-P4ClrBMHhBjZlR-gEB9ZjVPgWyMxnyZ0vmkDRCHROFNP8xiKlP7j_jZF4QO0w3eq73ggdmD9S0_O5GZ_Mm-XbysqqBok9_aqL6vKIq-3OHsYPbDvKoog2PH45cn1pll81Zu-kTZyOwniTeHl71VCqPR0fyujgAGbfNaN4=w711-h948-no?authuser=1"
+              data-mdb-img="https://lh3.googleusercontent.com/T6YRE7z0T9BcypE6xhmLyqlFLqDNJ-NWAzqi4qafxW6iD1DMLrMgvgprL-H8ELzGnnFehM7EAV9LuupIkBiFd7Mitve5dfY8rAKPTAdU6w7d8dKvKP6__VwZ9PkDiaKoHLqLBR1Roe6fAqxemBze-7IJm3mmr85e8L66cHq0R8Yt6edZM8_vjxtTzQrfSSUdq_bea6mZX2KHaSuk8iQ-eq52J8Bx4P5HPgnvk63eR34phpXEYnUgL_c82nLeMupMBs9zNy9kOjYnK5VyH3CDgzdbdm4kQvkmYj05Oas1cx_ZZVm8wCIyrLEs5s9cipgcESuVy9QoFsnsqTPjxeqcIf2bm75PvSiUVKS3zv81jUSIc8gAvW1UoC1iNIFlUG9-15lo6PwpV7DDQua2zfY3gDOMGqtVdSK7foneDeDhn7N9F0PoNeHyLan1hAUad1hmU-2JcZEu76FCzD8JyMeDZ9b6kEeJL_e8Rtikze7mHPJNYpS-mNaTE500ZjmzmjgvGAHrOhiPf-LhST5Wjaobvfdj1Wxg8tRr0vQ2fXc6_mzxA-sONo-P4ClrBMHhBjZlR-gEB9ZjVPgWyMxnyZ0vmkDRCHROFNP8xiKlP7j_jZF4QO0w3eq73ggdmD9S0_O5GZ_Mm-XbysqqBok9_aqL6vKIq-3OHsYPbDvKoog2PH45cn1pll81Zu-kTZyOwniTeHl71VCqPR0fyujgAGbfNaN4=w711-h948-no?authuser=1"
+              alt="Lightbox image 3"
+              class="w-100 shadow-1-strong rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Section: Demo-->
+  </section>
+  <!--Section: Lightbox-->
+
+  <hr class="my-5" />
+
+  <!--Section: Advanced multi-item carousel-->
+  <section id="section-advanced-multi-item-carousel">
+    <!-- Section title -->
+    <h2 class="mb-4">Hình ảnh lớp học đại học của mình D17CQDT02-B</h2>
+    <section class="border p-4 text-center mb-4">
+      <div class="lightbox">
+        <div class="multi-carousel">
+          <div class="multi-carousel-inner">
+            <div class="multi-carousel-item">
+              <img
+                src="https://scontent-cgk1-2.xx.fbcdn.net/v/t31.18172-8/26023837_163131237648179_2277513782040295553_o.jpg?_nc_cat=107&ccb=1-3&_nc_sid=825194&_nc_ohc=xVSEhvRnjkgAX-76A0k&_nc_ht=scontent-cgk1-2.xx&oh=9e4de579d8ff647b9656717c210cdda8&oe=60D66A72"
+                data-mdb-img="https://scontent-cgk1-2.xx.fbcdn.net/v/t31.18172-8/26023837_163131237648179_2277513782040295553_o.jpg?_nc_cat=107&ccb=1-3&_nc_sid=825194&_nc_ohc=xVSEhvRnjkgAX-76A0k&_nc_ht=scontent-cgk1-2.xx&oh=9e4de579d8ff647b9656717c210cdda8&oe=60D66A72"
+                alt="Gallery image 1"
+                class="w-100"
+              />
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!--Section: Advanced multi-item carousel-->
+</section>
+<!--Section: Docs content-->
+              </div>
+                          </div>
+          </div>
+        
+              </div>
+    </div>
+  </main>
+  <!-- /.Main layout-->
+
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="apiRestrictedModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <!--Section: Content-->
+        <section>
+          <div class="text-center">
+            <h3 class="font-weight-bold border border-primary p-3 mb-3">Access restricted</h3>
+
+            <h5><strong>To view this API section you must have an active MDB Pro account</strong></h5>
+
+            <p>
+              <strong>Log in</strong> to your account or
+              <strong>purchase an MDB Pro subscription</strong> if you are a new user
+            </p>
+
+            <a class="btn btn-primary me-1 auth-modal-toggle" data-auth-modal-tab="sign-in" data-mdb-dismiss="modal">Login</a>
+            <a
+              class="btn btn-secondary"
+              target="_blank"
+              href="https://mdbootstrap.com/docs/standard/pro/"
+              role="button"
+            >Buy MDB Pro</a>
+          </div>
+        </section>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-mdb-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<footer id="mdb-footer" class="mt-5" style="background-color: hsl(216, 25%, 95.1%);">
+
+    <style>
+                        
+        #mdb-footer {
+          padding-left: 240px;
+        }
+
+        
+        @media (max-width: 1439px) {
+            #mdb-footer {
+                padding-left: 0;
+            }
+        }
+    </style>
+
+    <div class="container py-5">
+        <div class="text-center">
+
+        <p class="">
+          Các bạn có thể đến thăm trang cá nhân của mình.
+        </p>
+        <a href="https://www.facebook.com/huyhosy1999/"  class="btn btn-primary">Facebook<i
+            class="fas fa-angle-double-right ms-2"></i></a>
+        </div>
+            </div>
+
+
+
+</footer>
+</html>
