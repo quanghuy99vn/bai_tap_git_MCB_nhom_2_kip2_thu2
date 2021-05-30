@@ -1,0 +1,48 @@
+.content-img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center;
+    margin-bottom: -90px;
+}
+
+.img-container {
+    margin-bottom: -86px;
+    z-index: 1;
+    width: 100%; 
+    height: 300px; 
+    overflow: hidden;
+}
+
+.img-container:hover{
+    cursor: pointer;
+    z-index: 1;
+    margin-bottom: 15px;
+    transition: 1.5s;
+}
+
+.big-img{
+    display: block;
+    width: 100%;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(223, 180, 165);
+    color: rgb(31, 29, 29);
+    opacity: 0.5;
+}
+
+.img-container-big {
+    transition: 1s;
+    margin-right: 10px;
+    width: 100%;
+    height: 44em;
+    z-index: 2;
+}
+
+.card-text {
+    z-index: 0;
+
+}
